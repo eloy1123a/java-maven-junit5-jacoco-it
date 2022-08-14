@@ -174,4 +174,15 @@
 
     </plugins>
   </build>
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>eloy1123a/java-maven-junit5-jacoco-it Maven repository</name>
+      <url>https://maven.pkg.github.com/eloy1123a/java-maven-junit5-jacoco-it</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
+
 </project>

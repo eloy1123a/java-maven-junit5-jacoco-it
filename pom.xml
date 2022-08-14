@@ -175,7 +175,7 @@
     </plugins>
   </build>
 
-  <repositories>
+  <distributionManagement>
     <repository>
       <id>github</id>
       <name>eloy1123a/java-maven-junit5-jacoco-it Maven repository</name>
@@ -183,6 +183,6 @@
       <releases><enabled>true</enabled></releases>
       <snapshots><enabled>true</enabled></snapshots>
     </repository>
-  </repositories>
+  </distributionManagement>
 
 </project>

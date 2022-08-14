@@ -22,6 +22,7 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn --batch-mode --update-snapshots verify
-      # some modification to trigger the workflow
+    - name: Download dependencies
+      run: mvn -B -U dependency:go-offline
+    - name: Build and test
+      run: mvn -B -U verify
